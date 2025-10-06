@@ -117,7 +117,7 @@ python -m pytest -q
 - `alembic/` migration env & versions
 - `ERD.md` diagram (Mermaid)
 - `prompts.md` **(Vibecoding prompts history, mandatory)**
-- `agent_corrections.md` **(Corrections you made to agent outputs)**
+- `agent_corrections.md` **(Corrections I made to agent outputs)**
 
 ## Design Notes
 
