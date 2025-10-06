@@ -13,7 +13,7 @@ Supports:
 ## Stack
 - FastAPI
 - SQLAlchemy 2.x
-- **PostgreSQL** (default via `SQLALCHEMY_DATABASE_URL`)
+- **PostgreSQL** (default via `sqlalchemy.url`)
 - jose (JWT), passlib+bcrypt for password hashing
 - Alembic for migrations
 - pytest + httpx for tests
