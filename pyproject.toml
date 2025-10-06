@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-minimal-pg-jwt"
+version = "0.1.0"
+description = "Minimal FastAPI backend with PostgreSQL (psycopg), SQLAlchemy 2.0, JWT (HS256), Pydantic v2, and Alembic"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "SQLAlchemy>=2.0",
+  "psycopg[binary]>=3.1",
+  "alembic>=1.13",
+  "pydantic>=2.5",
+  "pyjwt>=2.9",
+  "passlib[bcrypt]>=1.7",
+  "python-dotenv>=1.0",
+
+  "pydantic-settings==2.10.1",
+  "email-validator==2.3.0",
+  "bcrypt==4.2.0",
+  "pytest==8.4.2",
+  "httpx==0.28.1"
+]
+
+[tool.setuptools]
+packages = ["app"]
