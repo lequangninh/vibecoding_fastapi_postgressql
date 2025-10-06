@@ -121,7 +121,7 @@ python -m pytest -q
 
 ## Design Notes
 
--Entities & relationship
+- Entities & relationship
 
     users and posts with a 1-to-many (User.posts).
 
